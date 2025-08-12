@@ -34,7 +34,7 @@ namespace Clockwise
             GApp.Init();
 
             var window = new Gtk.Window("Clockwise – 时钟与每日励志");
-            //window.Fullscreen();
+            window.Fullscreen();
             window.Decorated = false;         // 去掉边框
             window.KeepAbove = true;          // 保持置顶
             window.TypeHint = WindowTypeHint.Dialog;
